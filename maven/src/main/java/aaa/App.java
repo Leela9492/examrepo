@@ -14,5 +14,7 @@ public class App
 	System.out.println("add="+a);
 	b=sub.subract(8,2);
 	System.out.println("sub="+b);
+	c=mul.multi(2,5);
+	System.out.println("mul="+c);
     }
 }
