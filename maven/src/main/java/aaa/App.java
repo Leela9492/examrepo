@@ -9,12 +9,15 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
-	int a=0,b=0,c=0;
+	int a=0,b=0,c=0,d=0;
 	a=add.addition(2,3);
 	System.out.println("add="+a);
 	b=sub.subract(8,2);
 	System.out.println("sub="+b);
 	c=mul.multi(2,5);
 	System.out.println("mul="+c);
+	d=div.division(4,2);
+	System.out.println("div="+d);
+
     }
 }
